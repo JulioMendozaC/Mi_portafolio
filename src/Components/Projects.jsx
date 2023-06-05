@@ -26,11 +26,18 @@ const Projects = () => {
       link2: "https://juliomendozac.github.io/TareasReact/"
     },
     {
-      title: "Business Startup",
+      title: "Agenda de Citas",
       description: "Aplicacions para la administracion de pacientes",
       imgUrl: projImg3,
       link1: "https://github.com/JulioMendozaC/citasReact.git",
       link2: "https://main--heartfelt-yeot-c8c865.netlify.app"
+    },
+    {
+      title: "Gastos",
+      description: "Aplicacions para la administracion de pacientes",
+      imgUrl: projImg3,
+      link1: "https://github.com//citasReact.git",
+      link2: "https://github.com/JulioMendozaC/PresupuestosReact.git"
     },
   
   ];
