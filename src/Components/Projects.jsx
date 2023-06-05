@@ -38,8 +38,8 @@ const Projects = () => {
       title: "Gastos",
       description: "Aplicacions para la administracion de pacientes",
       imgUrl: projImg4,
-      link1: "https://github.com//citasReact.git",
-      link2: "https://github.com/JulioMendozaC/PresupuestosReact.git"
+      link1: "https://github.com/JulioMendozaC/PresupuestosReact.git",
+      link2: "https://proyectopresu.netlify.app"
     },
   
   ];
