@@ -5,6 +5,8 @@ import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import projImg4 from "../assets/img/project-img4.png";
+import projImg5 from "../assets/img/project-img5.png";
+
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 // import 'animate.css';
@@ -40,6 +42,13 @@ const Projects = () => {
       imgUrl: projImg4,
       link1: "https://github.com/JulioMendozaC/PresupuestosReact.git",
       link2: "https://proyectopresu.netlify.app"
+    },
+    {
+      title: "Cotizador",
+      description: "Aplicacions para cotizador de seguro para autos",
+      imgUrl: projImg5,
+      link1: "https://github.com/JulioMendozaC/CotisadorCarros.git",
+      link2: "https://cotizadorcarrosreact.netlify.app/"
     },
   
   ];
