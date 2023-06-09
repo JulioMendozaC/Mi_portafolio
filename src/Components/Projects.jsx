@@ -6,6 +6,8 @@ import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import projImg4 from "../assets/img/project-img4.png";
 import projImg5 from "../assets/img/project-img5.png";
+import projImg6 from "../assets/img/project-img6.png";
+
 
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -31,24 +33,31 @@ const Projects = () => {
     },
     {
       title: "Agenda de Citas",
-      description: "Aplicacions para la administracion de pacientes",
+      description: "Aplicacion para la administracion de pacientes",
       imgUrl: projImg3,
       link1: "https://github.com/JulioMendozaC/citasReact.git",
       link2: "https://main--heartfelt-yeot-c8c865.netlify.app"
     },
     {
       title: "Gastos",
-      description: "Aplicacions para la administracion de pacientes",
+      description: "Aplicacion para la administracion de pacientes",
       imgUrl: projImg4,
       link1: "https://github.com/JulioMendozaC/PresupuestosReact.git",
       link2: "https://proyectopresu.netlify.app"
     },
     {
       title: "Cotizador",
-      description: "Aplicacions para cotizador de seguro para autos",
+      description: "Aplicacion para cotizador de seguro para autos",
       imgUrl: projImg5,
       link1: "https://github.com/JulioMendozaC/CotisadorCarros.git",
       link2: "https://cotizadorcarrosreact.netlify.app/"
+    },
+    {
+      title: "Api Breakin Bad",
+      description: "Aplicacion creada para el consumo de la api de brakin bad que nos arroja frases aleatorias",
+      imgUrl: projImg6,
+      link1: "https://github.com/JulioMendozaC/ApiBreakin.git",
+      link2: ""
     },
   
   ];
