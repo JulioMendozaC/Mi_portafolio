@@ -7,6 +7,7 @@ import projImg3 from "../assets/img/project-img3.png";
 import projImg4 from "../assets/img/project-img4.png";
 import projImg5 from "../assets/img/project-img5.png";
 import projImg6 from "../assets/img/project-img6.png";
+import projImg7 from "../assets/img/project-img7.png";
 
 
 
@@ -61,6 +62,15 @@ const Projects = () => {
     },
   
   ];
+  const projects2 = [
+    {
+      title: "Cotization de Criptomonedas",
+      description: "Aplicación para la cotizacion de Criptomonedas a monedas mas populares",
+      imgUrl: projImg7,
+      link1: "https://github.com/JulioMendozaC/SCDOC.git",
+      link2: "https://scgdoc.000webhostapp.com/includes/login.php"
+    },
+  ]
 
   return (
     <section className="project" id="Proyectos">
@@ -98,9 +108,19 @@ const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane>
+                    <Tab.Pane eventKey="second">
+                    <Row>
+                        {
+                          projects2.map((project, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                                />
+                            )
+                          })
+                        }
+                      </Row>                    </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
                     </Tab.Pane>
