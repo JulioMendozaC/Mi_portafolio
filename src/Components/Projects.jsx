@@ -67,8 +67,8 @@ const Projects = () => {
       title: "Cotization de Criptomonedas",
       description: "Aplicación para la cotizacion de Criptomonedas a monedas mas populares",
       imgUrl: projImg7,
-      link1: "https://github.com/JulioMendozaC/SCDOC.git",
-      link2: "https://scgdoc.000webhostapp.com/includes/login.php"
+      link1: "https://github.com/JulioMendozaC/CotizacionCriptos.git",
+      link2: "https://cotizadorcriptojcm.netlify.app"
     },
   ]
 
