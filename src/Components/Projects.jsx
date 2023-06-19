@@ -8,6 +8,7 @@ import projImg4 from "../assets/img/project-img4.png";
 import projImg5 from "../assets/img/project-img5.png";
 import projImg6 from "../assets/img/project-img6.png";
 import projImg7 from "../assets/img/project-img7.png";
+import projImg8 from "../assets/img/project-img8.png";
 
 
 
@@ -58,7 +59,7 @@ const Projects = () => {
       description: "Aplicacion creada para el consumo de la api de brakin bad que nos arroja frases aleatorias",
       imgUrl: projImg6,
       link1: "https://github.com/JulioMendozaC/ApiBreakin.git",
-      link2: ""
+      link2: "https://frasesbrakin.netlify.app"
     },
   
   ];
@@ -69,6 +70,13 @@ const Projects = () => {
       imgUrl: projImg7,
       link1: "https://github.com/JulioMendozaC/CotizacionCriptos.git",
       link2: "https://cotizadorcriptojcm.netlify.app"
+    },
+    {
+      title: "Buscador de Imagenes",
+      description: "Aplicación para la busqueda de imagenes mediante la API de piaxabay",
+      imgUrl: projImg8,
+      link1: "https://github.com/JulioMendozaC/PixaBayAPI",
+      link2: "https://pixabayapijm.netlify.app"
     },
   ]
 
